@@ -4,16 +4,21 @@ import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default{
-  AppHeader,
-  AppMain,
-  AppFooter
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter,
+  }
 }
 
 </script>
 
 <template>
-  
+
+  <AppHeader />
+
 </template>
 
 <style>
+@import '/src/assets/scss/style.scss';
 </style>
