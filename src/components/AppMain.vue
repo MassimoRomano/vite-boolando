@@ -13,6 +13,7 @@ export default {
                     <img  src="/public/images/1b.webp" class="card-img-top trans-back" alt="...">
                     <div class="disc">-50%</div>
                     <div class="sost-2">Sostenibilità</div>
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Levi's</h6>
                         <h6 class="fw-bolder">RELAXED FIT TEE UNISEX</h6>
@@ -26,6 +27,7 @@ export default {
                     <img  src="/public/images/2.webp" class="card-img-top trans-front" alt="...">
                     <img  src="/public/images/2b.webp" class="card-img-top trans-back" alt="...">
                     <div class="disc">-50%</div>
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Levi's</h6>
                         <h6 class="fw-bolder">RELAXED FIT UNISEX</h6>
@@ -39,6 +41,7 @@ export default {
                     <img  src="/public/images/3.webp" class="card-img-top trans-front" alt="...">
                     <img  src="/public/images/3b.webp" class="card-img-top trans-back" alt="...">
                     <div class="disc">-50%</div>
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Levi's</h6>
                         <h6 class="fw-bolder">RELAXED FIT UNISEX</h6>
@@ -53,6 +56,7 @@ export default {
                     <img  src="/public/images/4b.webp" class="card-img-top trans-back" alt="...">
                     <div class="disc">-50%</div>
                     <div class="sost-2">Sostenibilità</div>
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Levi's</h6>
                         <h6 class="fw-bolder">RELAXED FIT UNISEX</h6>
@@ -65,6 +69,7 @@ export default {
                 <div class="card border border-0">
                     <img  src="/public/images/5.webp" class="card-img-top trans-front" alt="...">
                     <img  src="/public/images/5b.webp" class="card-img-top trans-back" alt="...">
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Maya Deluxe</h6>
                         <h6 class="fw-bolder">STRIPE BODICE</h6>
@@ -78,6 +83,7 @@ export default {
                     <img  src="/public/images/6b.webp" class="card-img-top trans-back" alt="...">
                     <div class="disc">-50%</div>
                     <div class="sost">Sostenibilità</div>
+                    <i class="fa-solid fa-heart heart"></i>
                     <div class="card-body p-0">
                         <h6>Levi's</h6>
                         <h6 class="fw-bolder">RELAXED FIT UNISEX</h6>
