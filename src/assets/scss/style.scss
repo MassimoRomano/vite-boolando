@@ -1,5 +1,6 @@
 @use 'bootstrap/scss/bootstrap.scss';
 @use './partials/variables' as *;
+@use '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 
 header{
     background-color: $primary;
