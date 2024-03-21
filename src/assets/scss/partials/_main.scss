@@ -1,0 +1,41 @@
+.trans-back {
+    display: none;
+}
+
+.card:hover .trans-front {
+    display: none;
+}
+
+.card:hover .trans-back {
+    display: block;
+}
+
+.sost{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+
+.sost-2{
+    position: absolute;
+    top: 400px;
+    left: 65px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+
+.disc{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 0px 10px;
+}

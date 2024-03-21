@@ -7,9 +7,9 @@ export default {
 <template>
     <header>
         <nav class="container d-flex justify-content-between align-items-center py-3">
-            <ul class="list-unstyled d-flex gap-2">
+            <ul class="list-unstyled d-flex gap-3">
                 <li class="dropdown-center">
-                    <a class=" text-light text-decoration-none" type="" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class=" text-light text-decoration-none dropdown-toggle" type="" data-bs-toggle="dropdown" aria-expanded="false">
                         Uomo
                     </a>
                     <ul class="dropdown-menu">
@@ -19,7 +19,7 @@ export default {
                     </ul>
                 </li>
                 <li class="dropdown-center">
-                    <a class=" text-light text-decoration-none" type="" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class=" text-light text-decoration-none dropdown-toggle" type="" data-bs-toggle="dropdown" aria-expanded="false">
                         Donna
                     </a>
                     <ul class="dropdown-menu">
@@ -29,7 +29,7 @@ export default {
                     </ul>
                 </li>
                 <li class="dropdown-center">
-                    <a class=" text-light text-decoration-none" type="" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class=" text-light text-decoration-none dropdown-toggle" type="" data-bs-toggle="dropdown" aria-expanded="false">
                         Bambino
                     </a>
                     <ul class="dropdown-menu">
