@@ -1,7 +1,7 @@
 export const products = [
     {
       "id": 1,
-      "frontImage": "1.webp",
+      "frontImage": "../public/images/1.webp",
       "backImage": "1b.webp",
       "brand": "Levi's",
       "name": "Relaxed Fit",
