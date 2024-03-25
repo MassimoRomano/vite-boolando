@@ -1,8 +1,7 @@
 <script>
-import axios from 'axios';
-import { products } from '../product';
+/* import { products } from '../product'; */
 import BodyCard from './BodyCard.vue';
-
+import { state } from '../state.js'
 
 export default {
     name: 'AppMain',
@@ -11,15 +10,11 @@ export default {
     },
     data() {
         return {
-            products
+            state
         }
     },
-    mounted (){
-        axios.get('http://localhost:3000/products')
-        .then(response =>{
-            console.log(response)
-            this.products = response.data
-        })
+    mounted() {
+           this.state.getProducts(this.state.base_products_api_url)
     }
 }
 </script>
@@ -28,10 +23,11 @@ export default {
     <div class="container">
         <div class="row my-4">
             <!-- Itera sui prodotti e li inserisce in colonne -->
-            <div class="col-4 mb-4" v-for="product in products" :key="product.id">
+            <div class="col-4 mb-4" v-for="product in state.products" :key="product.id">
                 <BodyCard :product="product" />
             </div>
         </div>
+        <p>Ci sono: {{ state.products.length }} capi</p>
     </div>
 </template>
 
