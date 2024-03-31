@@ -16,15 +16,22 @@ export default {
       } else {
         return product.price;
       }
+    },
+    openModal(product) {
+      this.$emit('open-modal', product);
     }
   }
 }
 </script>
 
 <template>
-  <div class="card border border-0">
-    <img :src="product.frontImage" class="card-img-top trans-front" alt="...">
-    <img :src="product.backImage" class="card-img-top trans-back" alt="...">
+    <div class="card border border-0">
+    <div class="image-container" @click="openModal(product.frontImage)">
+      <img :src="product.frontImage" class="card-img-top trans-front" alt="...">
+    </div>
+    <div class="image-container" @click="openModal(product.backImage)">
+      <img :src="product.backImage" class="card-img-top trans-back" alt="...">
+    </div>
     <h6>{{ product.brand }}</h6>
     <h6 class="fw-bolder">{{ product.name }}</h6>
     <p v-if="hasDiscount(product)" class="mb-0">
@@ -40,3 +47,10 @@ export default {
     </div>
   </div>
 </template>
+
+
+<style scoped>
+.image-container {
+  cursor: pointer; 
+}
+</style>
